@@ -49,6 +49,8 @@
 * Default firmware does not include any LED configuration.
 
 ### To-do:
+* Validate DXF 1:1 scaling
+* Convert DXF line color for laser cutting
 * Add picture of assembled prototype
 * Add picture of handwiring
 * Add firmware files
