@@ -31,6 +31,12 @@
 ### Assembly:
 * Stacked acrylic layer case, metal switch plate (or could also be acrylic)
     * Case layer holes are compatible with standard M2 brass screws/standoffs
+    * Layer dimensions and path lengths are outlined in `path_length.md`
+
+* Files for laser cutting by Ponoko in `./illustrator_files`
+    * Includes case layer DXF files imported into Illustrator at 1:1 scale with units in millimeters
+        * Does not include the plate as I had the plate DXF file cut by lasergist 
+    * `final_cut_layout` is Ponoko's P3 template with the layers grouped to fit
 
 * Stack order:
 1) `arch_40_case_layer0`
@@ -49,8 +55,6 @@
 * Default firmware does not include any LED configuration.
 
 ### To-do:
-* Validate DXF 1:1 scaling
-* Convert DXF line color for laser cutting
 * Add picture of assembled prototype
 * Add picture of handwiring
 * Add firmware files
