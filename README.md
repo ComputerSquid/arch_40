@@ -17,7 +17,7 @@
 
 
 ### Ortholinear, columnar stagger keyboard switch plate and case
-* Inspired by the Ergodox, Corne, Alice, and probably others
+* Inspired by the Ergodox, Iris, Corne, Alice, and probably others
 
 * Design goals:
     * Efficiency and minimalism of a 40% form factor
@@ -51,7 +51,7 @@
 * The rear cutout is designed for a mini usb connection, like the one on the Teensy2.0
 
 ### Note:
-* Kerf of plate and case layers is set to 0.15mm (typical for laserboost/lasergist)
+* Kerf of plate and case layers is set to 0.15mm (typical for Ponoko/ Laserboost/ Lasergist)
 * Default firmware does not include any LED configuration.
 
 ### To-do:
