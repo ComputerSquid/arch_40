@@ -17,7 +17,7 @@
 
 
 ### Ortholinear, columnar stagger keyboard switch plate and case
-* Inspired by the Ergodox, Iris, Corne, Alice, and probably others
+* Inspired by the Ergodox, Atreus, Iris, Corne, Alice, and probably others
 
 * Design goals:
     * Efficiency and minimalism of a 40% form factor
