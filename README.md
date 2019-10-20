@@ -53,12 +53,12 @@ r4 : F6             c4 : D7        c10 : D0
 #### Stack order:
 1) `arch_40_case_layer0`
 2) `arch_40_plate`
-3) `arch_40_case_layer_2-3`
-4) `arch_40_case_layer_2-3` (repeated)
-5) `arch_40_case_layer_4`
-6) `arch_40_case_layer_5`
+3) `arch_40_case_layer2-3`
+4) `arch_40_case_layer2-3` (repeated)
+5) `arch_40_case_layer4`
+6) `arch_40_case_layer5`
 
-* Note: `arch_40_case_layer_2-3` is designed to be used twice, it contains the cutout for the USB connection
+* Note: `arch_40_case_layer2-3` is designed to be used twice, it contains the cutout for the USB connection
 * `arch_40_case_layer4` can also be repeated to make more space for handwiring and LED strips
     * This layer can be added to the laser cut layout by copying the dxf file and adding it to the layout
 * Resulting case height with 3mm acrylic layers + 1.5mm metal plate is 16.5mm
