@@ -64,31 +64,6 @@ r4 : F6             c4 : D7        c10 : D0
 * Resulting case height with 3mm acrylic layers + 1.5mm metal plate is 16.5mm
 * The rear cutout is designed for a mini usb connection, like the one on the Teensy2.0
 
-## Flashing firmware:
-#### Dependencies:
-* [dfu-programmer](https://dfu-programmer.github.io/)
-* sudo
-
-#### Default layout:
-![keyboard_layout_editor_image](https://i.imgur.com/W2Qy6F0.jpg)
-
-#### Linux flashing:
-* With controller plugged into computer in dfu mode:
-~~~
-sudo dfu-programmer atmega32u4 erase
-sudo dfu-programmer atmega32u4 flash ~/your/firmware/path/file.hex
-sudo dfu-programmer atmega32u4 start
-~~~
- 
-Alternatively, can use `dfu-reflash.sh` script in `./firmware` to speed up reflashing files compiled with Keyboard Firmware Builder
-* Default firmware path file name is already specified in script, can be changed with your chosen file, directory
-* Target for Teensy2.0 controllers is `atmega32u4`, can be replaced with any other controller that is compatible with dfu-programmer
-* To use script, connect the controller to computer, run the script with command below, press the reset button on keyboard, and press any key to continue (with another keyboard)
-
-~~~
-$ bash ./firmware/dfu-reflash.sh
-~~~
-
 #### LED Backlighting:
 * Default firmware `arch_40_firmware.hex` includes configuration for WS2812 LED backlighting strips
     * The data pin for the LED's is set to pin B1 on the teensy 2.0
