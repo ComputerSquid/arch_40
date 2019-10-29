@@ -38,6 +38,7 @@
 * Teensy2.0
 * Adafruit USB-mini breakout board (or a simple female USB-mini)
 * WS2812B LED strips
+* (49) 1N4184 diodes
 * M2 Standoffs and screws (10mm length standoffs, 5mm length screws)
 
 #### Case Stack Order:
@@ -94,4 +95,6 @@ $ teensy-loader-cli -mcu=atmega32u4 -w -v ./firmware/arch40firmware.hex
 ## To-do:
 * Add picture of assembled prototype
 * Add plate dxf/.ai file to ./illustrator_files
+* edit layer0 cad file for better 1.5u key fitment
+* fix curly brace in keymap
 ###### Model was created in Solidworks, then exported as STL/DXF. Feel free to use/modify/redistribute.
