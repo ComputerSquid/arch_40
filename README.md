@@ -1,7 +1,7 @@
 ## Arch 40
 
-![assembled_keyboard_1](https://i.imgur.com/.jpg)
-![assembled_keyboard_2](https://i.imgur.com/.jpg)
+![assembled_keyboard_1](https://i.imgur.com/mGvHH25.jpg)
+![assembled_keyboard_2](https://i.imgur.com/xLTRGtF.jpg)
 
 #### Case Renders:
 ![case_render_1](https://i.imgur.com/kMommcw.jpg)
@@ -93,8 +93,6 @@ $ teensy-loader-cli -mcu=atmega32u4 -w -v ./firmware/arch40firmware.hex
 * Kerf of plate and case layers is set to 0.15mm (typical for Ponoko/ Laserboost/ Lasergist)
 
 ## To-do:
-* Add picture of assembled prototype
 * Add plate dxf/.ai file to ./illustrator_files
 * edit layer0 cad file for better 1.5u key fitment
-* fix curly brace in keymap
 ###### Model was created in Solidworks, then exported as STL/DXF. Feel free to use/modify/redistribute.
