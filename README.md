@@ -26,8 +26,8 @@
 
 * Files for laser cutting by Ponoko/other services in `./illustrator_files`
     * Includes case layer DXF files imported into Adobe Illustrator at 1:1 scale with units in millimeters
-    * `final_cut_layout.eps` is Ponoko's P3 size template with case layers, *without plate*
-    * `final_cut_layout_plate.eps` is Ponoko's P3 size template with case layers, *with plate*
+    * `final_cut_layout.eps` is Ponoko's P3 size template with case layers, **without plate**
+    * `final_cut_layout_plate.eps` is Ponoko's P3 size template with case layers, **with plate**
 
 * Currently designed to be handwired with a Teensy2.0, may design a pcb later
 
