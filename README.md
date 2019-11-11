@@ -24,10 +24,10 @@
 * Stacked acrylic layer case, metal switch plate (or could also be acrylic)
     * Layer dimensions and path lengths are outlined in `path_length.md`
 
-* Files for laser cutting by Ponoko in `./illustrator_files`
-    * Includes case layer DXF files imported into Illustrator at 1:1 scale with units in millimeters
-    * `final_cut_layout.eps` is Ponoko's P3 size template with the case layers grouped to fit
-        * **Note:** Layout does **not** include the plate as I had the plate DXF file cut by Laserboost 
+* Files for laser cutting by Ponoko/other services in `./illustrator_files`
+    * Includes case layer DXF files imported into Adobe Illustrator at 1:1 scale with units in millimeters
+    * `final_cut_layout.eps` is Ponoko's P3 size template with case layers, *without plate*
+    * `final_cut_layout_plate.eps` is Ponoko's P3 size template with case layers, *with plate*
 
 * Currently designed to be handwired with a Teensy2.0, may design a pcb later
 
@@ -93,6 +93,6 @@ $ teensy-loader-cli -mcu=atmega32u4 -w -v ./firmware/arch40firmware.hex
 * Kerf of plate and case layers is set to 0.15mm (typical for Ponoko/ Laserboost/ Lasergist)
 
 ## To-do:
-* Add plate dxf/.ai file to ./illustrator_files
-* edit layer0 cad file for better 1.5u key fitment
+* Add PCB files
+
 ###### Model was created in Solidworks, then exported as STL/DXF. Feel free to use/modify/redistribute.
