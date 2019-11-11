@@ -4,7 +4,7 @@
 * `arch_40_case_layer0.dxf` 
     * Height: 147 mm
     * Width: 300 mm
-    * Path Length: 2182 mm
+    * Path Length: 2186 mm
 
 * `arch_40_plate.dxf` 
     * Height: 147 mm
